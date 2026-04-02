@@ -29,7 +29,7 @@ composer install
 
 | Méthode | Route | Description |
 |---------|-------|-------------|
-| GET | `/api/visa-files?type={type}&page={n}&per_page={n}` | Liste paginée |
+| GET | `/api/visa-files?type={type}&page={n}&perPage={n}` | Liste paginée |
 | POST | `/api/visa-files/{type}` | Upload d'un fichier |
 | DELETE | `/api/visa-files/{id}` | Suppression par UUID |
 
